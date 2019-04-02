@@ -1,0 +1,73 @@
+ANÁLISE DA REDE SOCIAL: MEDIA
+Tipo de Rede: Não Orientada
+
+INFORMAÇÕES ACERCA DOS NÓS
+ ID    Type     Label               Media                                     URL
+
+|s01      1 Newspaper            NY Times                https://www.nytimes.com/| 
+|s02      1 Newspaper     Washington Post         https://www.washingtonpost.com/| 
+|s03      1 Newspaper Wall Street Journal                    https://www.wsj.com/| 
+|s04      1 Newspaper           USA Today               https://www.usatoday.com/| 
+
+
+INFORMAÇÕES ACERCA DOS RAMOS
+ From    To    Weight
+
+|s01    s02         1| 
+|s01    s03         1| 
+|s01    s04         1| 
+|s02    s03         1| 
+|s03    s04         1| 
+
+
+
+GRAU DOS NÓS
+
+|s01      3| 
+|s02      2| 
+|s03      3| 
+|s04      2| 
+
+
+CENTRALIDADE DOS NÓS
+
+|s01  0,557| 
+|s02  0,435| 
+|s03  0,557| 
+|s04  0,435| 
+
+
+GRAU MÉDIO: 2,500
+
+
+
+DENSIDADE: 0,833
+
+
+POTÊNCIA DA MATRIZ DE ADJACÊNCIAS PARA k = 1
+         0         1         1         1
+         1         0         1         0
+         1         1         0         1
+         1         0         1         0
+
+
+POTÊNCIA DA MATRIZ DE ADJACÊNCIAS PARA k = 2
+         3         1         2         1
+         1         2         1         2
+         2         1         3         1
+         1         2         1         2
+
+
+POTÊNCIA DA MATRIZ DE ADJACÊNCIAS PARA k = 3
+         4         5         5         5
+         5         2         5         2
+         5         5         4         5
+         5         2         5         2
+
+
+POTÊNCIA DA MATRIZ DE ADJACÊNCIAS PARA k = 4
+        15         9        14         9
+         9        10         9        10
+        14         9        15         9
+         9        10         9        10
+
